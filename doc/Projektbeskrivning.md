@@ -2,7 +2,7 @@
 Projektmedlemmar: 
 [ej222pj](https://github.com/ej222pj)
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
+[Exekverbar version av projektet](https://github.com/ej222pj/Webbsideprojekt-1ik415.git)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
