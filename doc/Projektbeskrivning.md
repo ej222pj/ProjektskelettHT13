@@ -3,7 +3,7 @@ Projektmedlemmar:
 Eric Sjöström Jennerstrand 93-09-27
 [ej222pj](https://github.com/ej222pj)
 
-[Exekverbar version av projektet](https://github.com/ej222pj/Webbsideprojekt-1ik415.git)
+[Exekverbar version av projektet](https://github.com/ej222pj/ProjektskelettHT13/tree/gh-pages/Webbprojekt)
 
 ## Beskrivning av projektet
 Jag ska göra en hemsida åt Pauliströms Motorcykelklubb. Det kommer att bli en hemsida med information om motorcykelklubben, öppetider, bilder, mm.
