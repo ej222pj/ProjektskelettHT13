@@ -1,26 +1,28 @@
 # Projektnamn här
-Projektmedlemmar: 
+Projektmedlemmar:
+Eric Sjöström Jennerstrand 93-09-27
 [ej222pj](https://github.com/ej222pj)
 
 [Exekverbar version av projektet](https://github.com/ej222pj/Webbsideprojekt-1ik415.git)
 
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
-
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Jag ska göra en hemsida åt Pauliströms Motorcykelklubb. Det kommer att bli en hemsida med information om motorcykelklubben, öppetider, bilder, mm.
+Jag fick iden när jag kollade på deras hemsida och såg att den var mycket gammal och dåligt uppdaterad.
+Jag frågade ordföranden och fick tillåtelse men det är inte säkert att dom kommer använda hemsidan, men jag vill göra det ändå för jag tycker de verkar som en bra ide.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+Jag kommer att använda HTML5 och CSS3, det kommer att vara en väldigt enkel hemsida utan några javascript eller ramverk.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+Jag tror inte att det kommer bli några begränsningar i mitt projekt. Eftersom att jag gör rätt så simpel hemsida så kommer det troligtvis inte bli några begränsningar.
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
+Jag kommer behöva besöka crossbanan för att ta reda på lite information och få tag i några bilder på olika sätt.
+Det finns en befintlig hemsida som jag kommer kolla på lite och använda en del information där ifrån. Men jag kommer inte att göra om den hemsidan.
 
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+Min tidsplanering är gjord i Google docs.
+
+(https://docs.google.com/spreadsheet/pub?key=0AjoEOygcqU4vdHhvS21td1drWkZiV083UHVEQjdxUmc&output=html)
 
