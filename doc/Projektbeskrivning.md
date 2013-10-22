@@ -1,9 +1,6 @@
-
 # Projektnamn här
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
-
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
+[ej222pj](https://github.com/ej222pj)
 
 [Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
 
