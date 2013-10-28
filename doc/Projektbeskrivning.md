@@ -12,7 +12,7 @@ Jag frågade ordföranden och fick tillåtelse men det är inte säkert att dom 
 Sidan kommer bestå av 5 "delsidor", det kommer bl.a vara startsida, formulär, bildgaleri.
 
 ## Tekniker
-Jag kommer att använda HTML5 och CSS3, det kommer att vara en väldigt enkel hemsida utan några javascript eller ramverk.
+Jag kommer att använda HTML5 och CSS3, det kommer att vara en väldigt enkel hemsida och jag kommer att använda mig av ett enkelt javascript som ger mig en karta på hemsidan så att besökarna kan se vart crossbanan ligger utan några svårigheter.
 
 ## Begränsningar
 Jag tror inte att det kommer bli några begränsningar i mitt projekt. Eftersom att jag gör rätt så simpel hemsida så kommer det troligtvis inte bli några begränsningar. Jag sattsar istället på att göra denna hemsidan så bra och snygg som jag kan.
