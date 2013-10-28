@@ -17,7 +17,10 @@ header
 }
 .headerpic
 {
-    padding-top: 60px;
+    width: 244px;
+    height: 81px;
+    background-image: url("pics/header.png");
+    background-repeat: no-repeat;
 }
 #outercontainer
 {
@@ -147,6 +150,13 @@ main
     margin-right: 3px;
     text-align: justify;
     word-break: break-all;
+    border-radius:15px;
+}
+.fullmain
+{
+    width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 main h2
 {
@@ -164,9 +174,13 @@ aside
     padding-right: 4px;
     text-align: justify; 
     word-break: break-all;
+    border-radius:25px;
 }
 footer
 {
+    width: auto;
+    height: 30px;
+    background-color: white;
     clear: both;
 }
 
