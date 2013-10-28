@@ -1,0 +1,150 @@
+article, aside, details, figcaption, figure, 
+footer,main, header, hgroup, menu, nav, section
+{ 
+ display: block; 
+}
+body
+{
+    background-color: #000;
+    color: #000;
+}
+header
+{
+    width: 980px;
+    height: 150px;
+    background-image: url("pics/head.jpg");
+    float: left;
+}
+.headerpic
+{
+    padding-top: 60px;
+}
+#container
+{
+   width: 980px;
+   height: auto;
+   margin: auto;
+}
+nav
+{
+    float: left;
+}
+nav ul
+{
+    padding: 0;
+    margin: 0;
+}
+nav ul li
+{
+    float: left;
+    margin-left: 1px;
+}
+.nodot
+{
+    list-style-type: none;
+}
+.clear
+{
+    clear: both;
+}
+a
+{
+    text-decoration:none;
+}
+.css3button 
+{
+    width: 160px;
+    height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 8px;
+	color: #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#ff0000 0%,
+		#ff7700 50%,
+		#ff7700 50%,
+		#fc0000);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ff0000),
+		color-stop(0.50, #ff7700),
+		color-stop(0.50, #ff7700),
+		to(#fc0000));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(3,0,0,0.5),
+		inset 0px 0px 2px rgba(0,0,0,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(3,0,0,0.5),
+		inset 0px 0px 2px rgba(0,0,0,1);
+	box-shadow:
+		0px 1px 3px rgba(3,0,0,0.5),
+		inset 0px 0px 2px rgba(0,0,0,1);
+	text-shadow:
+		0px -1px 0px rgba(3,3,3,0.2),
+		0px 1px 0px rgba(0,0,0,1);
+}
+
+.activecss3button 
+{
+    width: 160px;
+    height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 8px;
+	color: #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#ff7700 0%,
+		#ff0000 50%,
+		#ff0000 50%,
+		#ff7700);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ff7700),
+		color-stop(0.50, #ff0000),
+		color-stop(0.50, #ff0000),
+		to(#ff7700));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(3,0,0,0.5),
+		inset 0px 0px 2px rgba(0,0,0,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(3,0,0,0.5),
+		inset 0px 0px 2px rgba(0,0,0,1);
+	box-shadow:
+		0px 1px 3px rgba(3,0,0,0.5),
+		inset 0px 0px 2px rgba(0,0,0,1);
+	text-shadow:
+		0px -1px 0px rgba(3,3,3,0.2),
+		0px 1px 0px rgba(0,0,0,1);
+}
+main
+{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    float: left;
+    clear: both;
+}
+aside
+{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    float: left;
+    clear: both;
+}
+
+
+
+
