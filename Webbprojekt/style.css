@@ -1,13 +1,15 @@
+
 article, aside, details, figcaption, figure, 
 footer,main, header, hgroup, menu, nav, section
 { 
  display: block; 
 }
-body
+html, body
 {
     background-color: #000;
     font-size: 14px;
     color: #000;
+    height: auto;
 }
 header
 {
@@ -26,15 +28,14 @@ header
 #outercontainer
 {
     width: 100%;
+    height: 100%;
     max-width: 980px;
-    height: auto;
     margin: 0 auto;
-
 }
 #container
 {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   clear: both;
   margin: 0 auto;
   padding: 0;
@@ -144,14 +145,38 @@ a
 }
 main
 {
-    width: 60%;
-    height: auto;
-    background-color: #e2e4d7;
+   width: 60%;
+   height: 100%;
+   background-color: #e2e4d7;
+   float: left;
+   margin-right: 3px;
+   text-align: justify;
+   word-break: normal;
+   border-radius:15px;
+}
+article
+{
     float: left;
-    margin-right: 3px;
-    text-align: justify;
-    word-break: normal;
-    border-radius:15px;
+    width: 45%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+article:nth-child(3)
+{
+    border-left:3px dashed #cdd0b9;
+}
+.postdate
+{
+    font-size: 10px;
+    margin: 12px;
+    margin-top: 0;
+    padding: 0;
+    color: red;
+}
+article p
+{
+    margin: 0;
+    padding: 0;  
 }
 h3
 {
@@ -181,7 +206,7 @@ main h2
 aside
 {
     width: 37%;
-    height: auto;
+    height: 100%;
     background-color: #cdd0b9;
     float: left;
     padding-left: 4px;
@@ -221,9 +246,7 @@ footer img
     background: #fff;
     display: inline;
     float: left;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 3px;
+    padding: 3px;
     text-align: center;
     color: black;
     text-decoration: none;
@@ -236,7 +259,6 @@ footer img
 {
     display: block;
     width: 100px;
-    margin-bottom: 5px;
 }
  .gallery a:hover
 {
