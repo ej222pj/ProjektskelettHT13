@@ -13,14 +13,14 @@ header
 {
     width: 980px;
     height: 150px;
-    background-image: url("pics/head.jpg");
+    background-image: url("pics/header.jpg");
     float: left;
 }
 .headerpic
 {
     width: 244px;
     height: 81px;
-    background-image: url("pics/header.png");
+    background-image: url("pics/headerlogga.png");
     background-repeat: no-repeat;
 }
 #outercontainer
@@ -152,6 +152,14 @@ main
     text-align: justify;
     word-break: normal;
     border-radius:15px;
+}
+h3
+{
+    padding-top: 35px;
+}
+.biggerLink
+{
+    font-size: 18px;
 }
 h4
 {
