@@ -6,7 +6,6 @@ footer,main, header, hgroup, menu, nav, section
 body
 {
     background-color: #000;
-    font-size: 14px;
     color: #000;
 }
 header
@@ -18,10 +17,7 @@ header
 }
 .headerpic
 {
-    width: 244px;
-    height: 81px;
-    background-image: url("pics/header.png");
-    background-repeat: no-repeat;
+    padding-top: 60px;
 }
 #outercontainer
 {
@@ -83,8 +79,8 @@ a
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
 		from(#ff0000),
-		color-stop(0.60, #ff7700),
-		color-stop(0.40, #ff7700),
+		color-stop(0.50, #ff7700),
+		color-stop(0.50, #ff7700),
 		to(#fc0000));
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -122,8 +118,8 @@ a
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
 		from(#ff7700),
-		color-stop(0.60, #ff0000),
-		color-stop(0.40, #ff0000),
+		color-stop(0.50, #ff0000),
+		color-stop(0.50, #ff0000),
 		to(#ff7700));
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -150,19 +146,7 @@ main
     float: left;
     margin-right: 3px;
     text-align: justify;
-    word-break: normal;
-    border-radius:15px;
-}
-h4
-{
-    padding: 0;
-    margin: 0;
-}
-.fullmain
-{
-    width: 95%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    word-break: break-all;
 }
 main h2
 {
@@ -179,25 +163,14 @@ aside
     padding-left: 4px;
     padding-right: 4px;
     text-align: justify; 
-    word-break: normal;
-    border-radius:15px;
+    word-break: break-all;
 }
 footer
 {
     width: auto;
-    height: 25px;
-    text-align: center;
+    height: 30px;
     background-color: white;
     clear: both;
-    border-radius:15px;
-}
-.noroundedaside
-{
-    border-radius: 0;
-}
-#googleMap
-{ 
-    height: 300px; 
 }
 
 

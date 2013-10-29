@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <!-- Ett script för att få fram kartan från google maps. -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKwsjcbliVS7FWGJV_efEZk6Jh8QpbH7s&amp;sensor=true" type="text/javascript"></script>
+        <script type="text/javascript">
+            var myCenter=new google.maps.LatLng(57.459859,15.513294);
+            function initialize()
+            {
+            var mapProp = {
+              center:myCenter,
+              zoom:16,
+              mapTypeId:google.maps.MapTypeId.ROADMAP
+              };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker=new google.maps.Marker({
+              position:myCenter,
+              });
+            marker.setMap(map);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+            
+        <link rel="stylesheet" href="../style.css" media="screen and (min-width:481px)" />
+        <link rel="stylesheet" href="../stylesmall.css" media="screen and (min-width:481px)" />
+        <meta name="viewport" content="width:device-width, initial-scale=0.5" />
+        <title>Pauliströms MCK</title>
+    </head>
+    <body>
+       <div id="outercontainer">
+        <div id="container">
+            <header><div class="headerpic"></div></header>
+            <nav>
+                <ul class="nodot">
+                    <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/index.html"><div class="css3button">Start</div></a></li>
+                    <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/pages/information.html"><div class="css3button">Information</div></a></li>
+                    <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/pages/hitta.html"><div class="activecss3button">Hitta Hit</div></a></li>
+                    <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/pages/boka.html"><div class="css3button">Boka Banan</div></a></li>
+                    <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/pages/bilder.html"><div class="css3button">Bildgalleri</div></a></li>
+                    <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/pages/kontakt.html"><div class="css3button">Kontakt</div></a></li>
+                </ul>
+            </nav>
+            <main>
+                <h2>Hitta Hit</h2>
+                <p>Sjöbobanan ligger 3.5 mil öster om Vetlanda och 2.5 mil väster om Hultsfred. När du är framme i pauliström, kör mot Kvillsfors ca 500 meter och sväng vänster vid skylten med crossbana.</p>
+                <p>Om du får problem eller inte hittar kan du <a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/pages/kontakt.html">kontakta oss.</a></p>
+                <p>Vid tävling ska förare hålla till höger och åskådare till vänster vid vägskälet.</p>
+            </main>
+            <aside class="noroundedaside">
+            <div id="googleMap"></div>
+            </aside>
+            <footer>Eric Sjöström Jennerstrand</footer>
+        </div>
+        </div>
+    </body>
+</html>
