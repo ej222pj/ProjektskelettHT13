@@ -207,6 +207,47 @@ footer
 { 
     height: 300px; 
 }
+.gallery a
+{
+    margin: 5px;
+    background: #fff;
+    display: inline;
+    float: left;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,.30);
+    -moz-box-shadow: 10px 10px 10px rgba(0,0,0,.30); 
+}
+.gallery img 
+{
+    display: block;
+    width: 100px;
+    margin-bottom: 5px;
+}
+ .gallery a:hover
+{
+    -webkit-box-shadow: 0 15px 18px rgba(0,0,0,.20);
+    -moz-box-shadow: 0 15px 18px rgba(0,0,0,.20);
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    position: relative;
+    z-index: 1;
+}
+.gallery a:focus
+{
+    -webkit-box-shadow: 0 10px 13px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 10px 13px rgba(0,0,0,.15);
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    position: relative;
+    z-index: 1;
+}
 
 
 
