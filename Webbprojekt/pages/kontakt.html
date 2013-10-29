@@ -24,7 +24,7 @@
             <main>
                 <h2>Kontakt</h2>
                 
-                <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                <form action="MAILTO:eric.sj11@hotmail.se" method="post" enctype="text/plain">
                     <fieldset>
                     <div>
                         <legend>Fråga/Förslag/Bokning:</legend>
@@ -35,23 +35,39 @@
                         </select>
                         </div>
                         <div class="formTitleArea">
-                           <div class="formTitle">Rubrik:</div> <input class="formTitleFields" type="text" name="Rubrik">
+                           <div>Rubrik:</div> <input class="formTitleFields" Name="Rubrik">
                         </div>
                         <div class="formTextArea">
-                           <div class="formText">Text:</div> <textarea class="formTextFields" name="Text" cols="16" rows="3"></textarea>
+                           <div>Text:</div> <textarea class="formTextFields" Name="Text" cols="16" rows="3"></textarea>
+                        </div>
+                        <div class="formTitleArea">
+                           <div>Email:</div><input class="formTitleFields" type="email" Name="Email"></textarea>
+                        </div>
+                        <div class="formTitleArea">
+                           <div>Telefonnummer:</div><input type="tel" class="formTitleFields" Name="Number"></textarea>
                         </div>
                     </fieldset>
                     
                     <fieldset>
-                        <div class="left"><legend>Kontakta mig via: </legend></div>
+                        <legend>Kontakta mig via: </legend>
                             <div class="radioButton">Mail<input type="radio" name="Kontakt" value="Mail"></div>
                             <div class="radioButton">Telefon<input type="radio" name="Kontakt" value="Telefon"></div>
                     </fieldset>
-                    <input class="formButton" type="submit" value="Skicka">
+                    <div class="moveButton">
+                    <input type="submit" value="Skicka">
+                    <input type="reset" value="Reset">
+                    </div>
                     </form>
             </main>
             <aside>
-                asd
+                <h3>Styrelse och Kontaktpersoner</h3>
+                <ul>
+                    <li><strong>Ordförande</strong> F***** E*********<br/>Telefon 1111-12 34 56, Mobil 070-12 34 567</li>
+                    <li><strong>Sekreterare</strong> F***** E****<br/>Telefon 1111-12 34 56, Mobil 070-12 34 567</li>
+                    <li><strong>Kassör</strong> F*** E*******<br/>Mobil 070-12 34 567</li>
+                    <li><strong>Styrelseledamöter</strong> F*** E*******, F** E*****, F**** E******, F**** E*********, F** E*******, F**** E****</li>
+                    <li><strong>Ban- och Miljö-ansvarig</strong> F*** E*******<br/>Mobil 070-12 34 567</li>
+                </ul>
             </aside>
             <footer>Eric Sjöström Jennerstrand</footer>
         </div>
