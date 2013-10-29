@@ -249,6 +249,87 @@ footer
     z-index: 1;
 }
 
+form
+{
+    padding-top: 5px;
+    background-color: #e2e4d75;
+}
+fieldset
+{
+    background-color: #e2e4d7;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.formTextArea
+{
+    padding-left: 3px;
+    float: left;
+}
+.formText
+{
+    float: left;
+    margin-right: 58px;
+}
+.formTitleFields
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    background-color: #4D4D4D;
+    color: #FFF;
+}
+.formScrollFields:focus, .formTitleFields:focus, .formTextFields:focus, .formScrollField:focus
+{
+    border-color: #FFF;
+    box-shadow: 0 0 10px #6EA2DE;
+}
+.formTextFields
+{
+    background-color: #4D4D4D;
+    color: #FFF;
+    max-width: 430px;
+    max-height: 200px;
+}
+.formScrollFields
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    background-color: #4D4D4D;
+    color: #FFF;
+}
+.formScrollField
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    background-color: #828282;
+    color: #FFF;
+}
+textarea
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    max-width: 650px;
+    max-height: 300px;
+}
+.formTitleArea
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+}
+.formTitle
+{
+    float: left;
+    margin-right: 44px;
+}
+.radioButton
+{
+    margin-left: 13px;
+}
 
 
 

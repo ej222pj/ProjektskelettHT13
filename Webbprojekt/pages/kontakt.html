@@ -5,12 +5,12 @@
         <link rel="stylesheet" href="../style.css" media="screen and (min-width:481px)" />
         <link rel="stylesheet" href="../stylesmall.css" media="screen and (min-width:481px)" />
         <meta name="viewport" content="width:device-width, initial-scale=0.5" />
-        <title>Pauliströms MCK</title>
+        <title>Kontakt</title>
     </head>
     <body>
        <div id="outercontainer">
         <div id="container">
-           <header><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/../index.html"><div class="headerpic"></div></a><</header>
+           <header><div class="headerpic"></div></header>
             <nav>
                 <ul class="nodot">
                     <li><a href="https://c9.io/ej222pj/projektskelettht13/workspace/Webbprojekt/index.html"><div class="css3button">Start</div></a></li>
@@ -22,18 +22,38 @@
                 </ul>
             </nav>
             <main>
-                <h2>Välkommen till Pauliström/Järnforsens MCK</h2>
-                <p></p>
+                <h2>Kontakt</h2>
+                
+                <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                    <fieldset>
+                    <div>
+                        <legend>Fråga/Förslag/Bokning:</legend>
+                        <select class="formScrollFields" name="Type">
+                            <option class="formScrollField" value="Fråga">Fråga</option>
+                            <option class="formScrollField" value="Förslag">Förslag</option>
+                            <option class="formScrollField" value="Bokning">Bokning</option>
+                        </select>
+                        </div>
+                        <div class="formTitleArea">
+                           <div class="formTitle">Rubrik:</div> <input class="formTitleFields" type="text" name="Rubrik">
+                        </div>
+                        <div class="formTextArea">
+                           <div class="formText">Text:</div> <textarea class="formTextFields" name="Text" cols="16" rows="3"></textarea>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <div class="left"><legend>Kontakta mig via: </legend></div>
+                            <div class="radioButton">Mail<input type="radio" name="Kontakt" value="Mail"></div>
+                            <div class="radioButton">Telefon<input type="radio" name="Kontakt" value="Telefon"></div>
+                    </fieldset>
+                    <input class="formButton" type="submit" value="Skicka">
+                    </form>
             </main>
             <aside>
-            <ul>
-                <li class="nodot"><h3>Träningstider</h3></li>
-                <li>Söndagar Klockan 11:00-17:00</li>
-            </ul>
-            <p>Körning får endast ske vid uppvisande av medlemskort eller avgift.</p>
-            <p>Under körning finns det möjlighet att köpa fika och medlemskort.</p>
+                asd
             </aside>
-            <footer></footer>
+            <footer>Eric Sjöström Jennerstrand</footer>
         </div>
         </div>
     </body>
