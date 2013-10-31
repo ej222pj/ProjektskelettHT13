@@ -1,0 +1,15 @@
+nav, img, .postdate, footer a, br, form
+{
+    display: none;    
+}
+a
+{
+    font-size: 16px;
+    color: #000;
+    
+}
+p a:after
+{
+    content:" [" attr(href) "] "; 
+}
+
