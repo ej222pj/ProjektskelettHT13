@@ -27,15 +27,12 @@ header
 #outercontainer
 {
     width: 100%;
-    height: 100%;
     max-width: 980px;
     margin: 0 auto;
     background-color: #000;
 }
 #container
 {
-  max-width: 100%;
-  height: 100%;
   clear: both;
   margin: 0 auto;
   padding: 0;
@@ -43,7 +40,6 @@ header
 nav
 {
     float: left;
-    
 }
 nav ul
 {
@@ -170,7 +166,7 @@ main
    word-break: normal;
    border-radius:15px;
    padding: 3px;
-   overflow: hidden;
+   overflow: scroll;
 }
 /* Tar bort mellanrummet för att aside inte ska hoppa ner. */
 @media all and (max-width: 1000px){
@@ -210,7 +206,7 @@ main
     -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,.30);
     -moz-box-shadow: 10px 10px 10px rgba(0,0,0,.30); 
 }
-.bokaPic
+.asidePic
 {
     width: 300px;
     height: 300px;
@@ -225,7 +221,7 @@ main
     {
         display: none;
 }
-    .bokaPic{
+    .asidePic{
         display: none;
     }
 }
@@ -287,7 +283,6 @@ aside
 }
 footer
 {
-    width: auto;
     height: 25px;
     text-align: center;
     background-color: white;
@@ -385,7 +380,7 @@ fieldset
 {
     background-color: #4D4D4D;
     color: #FFF;
-    max-width: 430px;
+    max-width: 265px;
     max-height: 200px;
 }
 .formScrollFields
@@ -409,8 +404,6 @@ textarea
     border: 3px;
     border-style: inset;
     border-color: #999999;
-    max-width: 650px;
-    max-height: 300px;
 }
 .formTitleArea
 {
@@ -428,15 +421,18 @@ textarea
 }
 /* Gör om sidan så den blir mobilanpassad */
 @media screen and (max-width: 480px){
+    header
+    {
+        width: 480px;
+    }
     main
     {
         width: 100%;
-        height: auto;
+        overflow: hidden;
     }
     aside
     {
         width: 100%;
-        height: auto;
     }
     footer
     {
