@@ -17,7 +17,8 @@ Jag kommer att använda HTML5 och CSS3, det kommer att vara en väldigt enkel he
 Jag kommer även använda mig lite utav photoshop för att fixa till vissa bilder lite.
 
 ## Begränsningar
-Jag tror inte att det kommer bli några begränsningar i mitt projekt. Eftersom att jag gör rätt så simpel hemsida så kommer det troligtvis inte bli några begränsningar. Jag sattsar istället på att göra denna hemsidan så bra och snygg som jag kan.
+Jag tror inte att det kommer bli många begränsningar i mitt projekt. Eftersom att jag gör rätt så simpel hemsida så kommer det troligtvis inte bli många begränsningar. Jag sattsar istället på att göra denna hemsidan så bra och snygg som jag kan.
+Mitt bildgalleri kommer bli begränsat. Jag skulle vilja ha ett bildspel på den sidan men jag vill inte kopiera in ett javascript som jag inte förstår alls så jag låter det vara ett vanligt CSS3 bildgalleri.
 
 ## Förstudier
 Jag kommer behöva besöka crossbanan för att ta reda på lite information och få tag i några bilder på olika sätt.
